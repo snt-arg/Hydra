@@ -1,33 +1,42 @@
 - git:
     local-name: catkin_simple
     uri: git@github.com:catkin/catkin_simple.git
+    version: 0e62848b12da76c8cc58a1add42b4f894d1ac21e
 - git:
     local-name: eigen_catkin
     uri: git@github.com:ethz-asl/eigen_catkin.git
+    version: 3323b388540fa95ec9da6f9cd887f70ead055edb
 - git:
     local-name: eigen_checks
     uri: git@github.com:ethz-asl/eigen_checks.git
+    version: 22a6247a3df11bc285d43d1a030f4e874a413997
 - git:
     local-name: gflags_catkin
     uri: git@github.com:ethz-asl/gflags_catkin.git
+    version: fc38fc525f7d48881aebb27a7b9978453556bbd4
 - git:
     local-name: glog_catkin
     uri: git@github.com:ethz-asl/glog_catkin.git
+    version: 40a9edadd15c59f8b57dc947d0135b0a007ea10b
 - git:
     local-name: gtsam
     uri: git@github.com:borglab/gtsam.git
     version: develop
+    version: 84df6ac0c6fd5fcd3370f666815197709a487c2b
 - git:
     local-name: kimera_pgmo
     uri: git@github.com:MIT-SPARK/Kimera-PGMO.git
     version: master
+    version: 39ea32779ffbef23a34871e85b8bf4f384a86c00 
 - git:
     local-name: kimera_rpgo
     uri: git@github.com:MIT-SPARK/Kimera-RPGO.git
     version: master
+    version: 19436dcf7e77ca60b30f96a0e7b1ca3a5408ca0e
 - git:
     local-name: spark_dsg
     uri: git@github.com:MIT-SPARK/Spark-DSG.git
+    version: fa80bf4348330afd4726b6c5fde9f5a526770079
 - git:
     local-name: hydra
     uri: git@github.com:MIT-SPARK/Hydra.git
@@ -35,23 +44,30 @@
     local-name: kimera_semantics
     uri: git@github.com:MIT-SPARK/Kimera-Semantics.git
     version: feature/noetic_fixes
+    version: 043d2d02b90cd54e26ea8644b3dae0c98372b014
 - git:
     local-name: mesh_tools
     uri: git@github.com:yunzc/mesh_tools.git
+    version: 480d41ac033db2de820e24b92177f38242cb18d9
 - git:
     local-name: minkindr
     uri: git@github.com:ethz-asl/minkindr.git
+    version: 564f12639a8447d4d3e5e7707851424302941056
 - git:
     local-name: minkindr_ros
     uri: git@github.com:ethz-asl/minkindr_ros.git
+    version: 8ef67b01c76e6dcba69dc5143692989b6a8dbc32
 - git:
     local-name: pose_graph_tools
     uri: git@github.com:MIT-SPARK/pose_graph_tools.git
     version: feature/hydra
+    version: 644c0741c0c596e608a2d954c6920c8d6455f318
 - git:
     local-name: teaser_plusplus
     uri: git@github.com:MIT-SPARK/TEASER-plusplus.git
+    version: d79d0c678b973e052796bc75d3f77025363726d6
 - git:
     local-name: voxblox
     uri: git@github.com:MIT-SPARK/voxblox.git
     version: feature/hydra
+    version: c04541655b2b2ff5608a3a7e54eb915adc5c1d03
