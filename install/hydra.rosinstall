@@ -22,7 +22,7 @@
     local-name: gtsam
     uri: git@github.com:borglab/gtsam.git
     version: develop
-    version: 84df6ac0c6fd5fcd3370f666815197709a487c2b
+    version: 844520fdbea6a1bb5855950ff8466b21c3fdfde1
 - git:
     local-name: kimera_pgmo
     uri: git@github.com:MIT-SPARK/Kimera-PGMO.git
@@ -40,6 +40,7 @@
 - git:
     local-name: hydra
     uri: git@github.com:MIT-SPARK/Hydra.git
+    version: 84df6ac0c6fd5fcd3370f666815197709a487c2b
 - git:
     local-name: kimera_semantics
     uri: git@github.com:MIT-SPARK/Kimera-Semantics.git

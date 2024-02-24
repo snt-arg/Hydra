@@ -1,11 +1,11 @@
 <launch>
-    <arg name="use_semantics" default="true"/>
+    <arg name="use_semantics" default="false"/>
 
-    <arg name="config"/>
-    <arg name="sensor_frame"/>
+    <arg name="config" default="uhumans2_topology_config.yaml"/>
+    <arg name="sensor_frame" default="base_footprint"/>
     <arg name="semantic_config" if="$(arg use_semantics)"/>
     <arg name="semantic_color_path" if="$(arg use_semantics)"/>
-    <arg name="pointcloud_topic" default="/semantic_pointcloud"/>
+    <arg name="pointcloud_topic" default="/filtered_points"/>
     <arg name="config_dir" default="$(find hydra_topology)/config"/>
 
     <arg name="voxel_size" default="0.10"/>
